@@ -1,5 +1,5 @@
 {
-  "name": "wheel",
+  "name": "HackathonHoster",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
   },

@@ -1,12 +1,12 @@
 {
   "engines": {
-    "node": "16.5",
+    "node": "16.14.2",
     "npm": "7.x",
     "yarn": "1.22.x"
   },
   "scripts": {
     "prepare": "husky install",
-    "sync_with_wheel": "curl -s -L \"https://raw.githubusercontent.com/bigbinary/wheel/master/.scripts/sync_with_wheel.sh\" | bash"
+    "sync_with_HackathonHoster": "curl -s -L \"https://raw.githubusercontent.com/bigbinary/HackathonHoster/master/.scripts/sync_with_HackathonHoster.sh\" | bash"
   },
   "lint-staged": {
     "app/**/*.{js,jsx,json}": [
